@@ -1,0 +1,17 @@
+{
+  "name": "learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon main.ts",
+    "start": "ts-node main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}
