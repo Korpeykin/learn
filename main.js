@@ -7,7 +7,7 @@ function sum(...args) {
     return ss;
   }
 
-  return b ? a + b : s;
+  return args[1] ? args[0] + args[1] : s;
 }
 
 console.log(sum(2, 3)); // результат 5
